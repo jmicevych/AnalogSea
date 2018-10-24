@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #298eea;
+	font-family: "Roboto", sans-serif
+}
+
+legend {
+	text-align: center;
+	margin: 0 0 40px 0;
+	font-size: 35px;
+	color: #565656;
+	font-weight: 300;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+label {
+	font-size: 18px;
+}
+
+input {
+	font-size: 18px;
+	margin: 10px 0 20px;
+	width: 320px;
+	padding: 15px;
+	border:2px solid #e7e7e7;
+	border-radius: 3px;
+}
+
+.medium-logo {
+	display: block;
+	height: 35px;
+	margin: 60px auto 30px auto;
+}
+
+.signup-container {
+	margin: 0 auto 0 auto;
+	background-color: white;
+	max-width: 400px;
+	padding: 40px;
+}
+
+.signup-button {
+	width: 320px;
+	padding: 12px;
+	border: 2px solid #15CD72;
+	border-radius: 3px;
+	background: #15CD72;
+	color: white;
+	font-size: 23px;
+}
+
+button:hover {
+	background-color: green;
+	border-color: green;
+}
+
+.login-message {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.white-text {
+	color: white;
+}
+
+.bold {
+	font-weight: bold;
+}

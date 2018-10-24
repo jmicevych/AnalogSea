@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnalogSea Sign up</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8" name="description" content="AnalogSea cloud computing sign up page">
+</head>
+<body>
+	<img class="medium-logo" src="AnalogSea_logo.png">
+	<div class="signup-container">
+		<form action="/signup/" method="post">
+			<legend>Sign up</legend>
+			<fieldset>
+				<label for="user-email">Email</label>
+				<input id="user-email" type="email" name="user-email" required placeholder="foo@bar.com">
+				<label for="user-pwd">Password</label>
+				<input for="user-pwd" type="password" name="user-pwd" required placeholder="1234passw0rd">
+				<button type="submit" class="signup-button">Sign up</button>
+			</fieldset>
+		</form>
+	</div>
+	<footer class="white-text bold login-message">Already have an account?  <a class="white-text" href="/login">Log in</a></footer>
+</body>
+</html>
